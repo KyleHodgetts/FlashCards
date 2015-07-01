@@ -4,10 +4,10 @@
 1. Clone to desired location
 2. cd FlashCards
 
-        ```
-        $ javac main/EFlashCards.java
-        $ java main/EFlashCards
-        ```
+ ```
+ $ javac main/EFlashCards.java
+ $ java main/EFlashCards
+ ```
 
 # To Add Flash Cards
         File > Create FlashCards
