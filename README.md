@@ -3,6 +3,7 @@
 # To Run
 1. Clone to desired location
 2. cd FlashCards
+
         $ javac main/EFlashCards.java
         $ java main/EFlashCards
 
