@@ -19,7 +19,7 @@ public class CardSaver {
 	
 	public boolean saveCards(){
 		try {
-			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(file + ".txt"));
 			for(QuizCard qc : cardsToSave){
 				writer.write(qc.getQuestion() + "/");
 				writer.write(qc.getAnswer() + "\n");

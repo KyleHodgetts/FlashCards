@@ -107,7 +107,7 @@ public class QuizCardBuilder extends JFrame{
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JFileChooser fileSave = new JFileChooser();
-			FileNameExtensionFilter filter = new FileNameExtensionFilter("Text Files", "txt", "text");
+			FileNameExtensionFilter filter = new FileNameExtensionFilter(".txt", "txt");
 			fileSave.setFileFilter(filter);
 			fileSave.showSaveDialog(QuizCardBuilder.this);
 			CardSaver cs = new CardSaver(cards, fileSave.getSelectedFile());

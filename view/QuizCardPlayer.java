@@ -142,11 +142,13 @@ public class QuizCardPlayer extends JFrame{
 		@Override
 		public void actionPerformed(ActionEvent arg0) {
 			try {
-				JFileChooser fileSave = new JFileChooser();
-				FileNameExtensionFilter filter = new FileNameExtensionFilter("Text Files", "txt", "text");
-				fileSave.setFileFilter(filter);
-				fileSave.showSaveDialog(QuizCardPlayer.this);
-				CardReader cr = new CardReader(fileSave.getSelectedFile());
+				JFileChooser fileLoad = new JFileChooser();
+				fileLoad.setApproveButtonText("Open");
+				fileLoad.setApproveButtonMnemonic('O');
+				FileNameExtensionFilter filter = new FileNameExtensionFilter(".txt", "txt");
+				fileLoad.setFileFilter(filter);
+				fileLoad.showSaveDialog(QuizCardPlayer.this);
+				CardReader cr = new CardReader(fileLoad.getSelectedFile());
 				cards = cr.getCards();
 				currentCardIndex = 0;
 				txtContent.setText(cards.get(currentCardIndex).getQuestion());
