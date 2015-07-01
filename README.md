@@ -12,7 +12,7 @@
 # To Add Flash Cards
         File > Create FlashCards
  
- ![alt tag](https://raw.github.com/KyleHodgetts/FlashCards/blob/master/screens/createcards.png)
+ ![IMG](https://github.com/KyleHodgetts/FlashCards/blob/master/screens/createcards.png)
 This will open the Card creator.
 
 2. Type in the question and corresponding answer and add it to the pile.
