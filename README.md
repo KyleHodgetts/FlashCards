@@ -15,6 +15,7 @@
  ![IMG](https://github.com/KyleHodgetts/FlashCards/blob/master/screens/createcards.png)
  
 This will open the Card creator.
+
  ![IMG](https://github.com/KyleHodgetts/FlashCards/blob/master/screens/cardcreator.png)
 
 
@@ -36,3 +37,9 @@ This will open the Card creator.
 1. Select the card pack
 2. Navigate through them using the corresponding buttons
 3. Push view answer to see the answer for that card.
+
+ ![IMG](https://github.com/KyleHodgetts/FlashCards/blob/master/screens/question.png)
+ 
+  ![IMG](https://github.com/KyleHodgetts/FlashCards/blob/master/screens/answer.png)
+
+
